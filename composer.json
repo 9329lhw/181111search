@@ -1,0 +1,13 @@
+{
+  "name": "181111search/Tools",
+  "description": "181111search",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "search\\": "src/"
+    }
+  }
+}

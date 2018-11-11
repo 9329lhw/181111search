@@ -1,17 +1,34 @@
 {
-    "name": "1811111457/search",
-    "description": "this is a search test",
-    "type": "project",
+	"name": "search/search-test",
+	
+	"description": "search-test",
+    "type": "library",
     "license": "mit",
-    "authors": [
+	"authors": [
         {
             "name": "liuhewu",
             "email": "932908195@qq.com"
         }
     ],
-    "autoload": {
-    "psr-4": {
-      "search\\": "src/"
-    }
-  }
+    "minimum-stability": "dev",
+	
+	
+	"require": {
+		"php": ">=5.6.0"
+	},
+	
+	"require-dev": {
+    },
+	
+	"autoload": {
+        "psr-4": {
+            "search\\": "src/"
+        }
+    },
+
+	"config": {
+        "secure-http" : false
+    },
+	"use-include-path" : false
 }
+

@@ -1,11 +1,15 @@
 {
-  "name": "181111search/Tools",
-  "description": "181111search",
-  "require": {
-  },
-  "require-dev": {
-  },
-  "autoload": {
+    "name": "181111/search",
+    "description": "this is a search test",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "liuhewu",
+            "email": "932908195@qq.com"
+        }
+    ],
+    "autoload": {
     "psr-4": {
       "search\\": "src/"
     }
